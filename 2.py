@@ -28,4 +28,3 @@ for pair in ids:
                 found[pair].append(i)
 
 print(cct)
-# testetsetsetsetsettsetsetset
