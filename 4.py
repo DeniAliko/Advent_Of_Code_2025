@@ -1,6 +1,5 @@
 import useful
 
-# print(useful.openFile(1))
 file = useful.openFile(4)
 grid = useful.createGrid(file)
 for i in range(-1, len(file[0])+1):
