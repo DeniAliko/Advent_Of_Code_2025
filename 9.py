@@ -16,6 +16,7 @@ print([tuple(i) for i in pts])
 
 # y cutoff: 49140
 # key pts: (94918,50338),(94918,48430)
+# https://www.desmos.com/calculator/mdgzst8ykd
 
 max = 0
 for i in range(len(pts)):
@@ -36,4 +37,3 @@ for i in range(len(pts)):
             max = (abs(pts[i][0]-94918) + 1)*(abs(pts[i][1]-48430) + 1)
 
 print(max)
-# 2859808492 too high
